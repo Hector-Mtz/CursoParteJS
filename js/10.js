@@ -19,3 +19,11 @@ console.log(producto.precio); //imprime la propiedad de precio
 console.log(producto.disponible); //imprime la propiedad de disponible
 
 console.log(producto["precio"]);
+
+
+producto.imagen = 'imagen.jpg' //agrega una nueva propiedad
+
+delete producto.disponible; // quitamos propiedad
+
+
+console.log(producto); // imprime todo el objeto
